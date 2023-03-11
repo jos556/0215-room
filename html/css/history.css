@@ -179,7 +179,7 @@ ul {
   position: relative;
   padding: 20% 5%;
   border-bottom: 2px solid var(--color-blue);
-  padding-bottom: 400px;
+  padding-bottom: 250px!important;
 }
 .section-detail-wrapper{
   position: relative;
@@ -208,7 +208,7 @@ ul {
   font-size: 40px;
   font-weight: 500;
   transform-origin: left;
-  transform: skewY(13deg);
+  transform: skewY(0deg)!important;
   z-index:5;
   text-transform: uppercase;
   color : var(--color-blue);
@@ -342,5 +342,10 @@ svg{
   .progress-bar-wrapper-left{
    right:0;
   left:auto;
+  }
+}
+@media (max-width :1456px) {
+  .section-title-text>img{
+    width: 390px;
   }
 }
