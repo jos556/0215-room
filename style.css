@@ -471,3 +471,29 @@ ul {
     bottom: 200px;
     left: calc( 30% - 150px);} 
 }
+#preloader{
+  background: #000 ;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position:fixed;
+  z-index: 9999999999999999999999999999999;
+}
+#preloader>img{
+  width: 254px;
+  height:254px;
+  animation-name: spin;
+  animation-duration: 1000ms;
+  animation-iteration-count: 3;
+  animation-timing-function: linear; 
+}
+@keyframes spin {
+  from {
+      transform:rotate(0deg);
+  }
+  to {
+      transform:rotate(360deg);
+  }
+}
