@@ -12,10 +12,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js" integrity="sha512-ZHauUc/vByS6JUz/Hl1o8s2kd4QJVLAbkz8clgjtbKUJT+AG1c735aMtVLJftKQYo+LD62QryvoNa+uqy+rCHQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + Vue</title>
-    <script type="module" crossorigin src="/assets/index-d22f3fbb.js"></script>
-    <link rel="stylesheet" href="/assets/index-042acfbc.css">
+    <script type="module" crossorigin src="/assets/index-b3ecaf3a.js"></script>
+    <link rel="stylesheet" href="/assets/index-3a4972e8.css">
   </head>
   <body class="light-theme">
+    <div id="preloader"><img src="/assets/preloader-d416f161.png" alt=""></div>
     <img src="/assets/penguinhero-5cfa01d2.png" alt="penguinhero" class="logo" style="position: fixed ;z-index: 99999999; border-radius: 20%; height:80px;">
     <div class="tog" style="display: none;"><div class="img-logo" style="display: flex ;justify-content: center;" >
       <div class = "navgator" style="position: fixed ;z-index: 99999999; display: flex;">
@@ -28,7 +29,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="./html/history.html">History</a>
+                <a class="nav-link" href="./src/html/history.html">History</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Link</a>
@@ -229,6 +230,11 @@ var swiper = new Swiper(".mySwiper", {
 //     if (callNow) func.apply(context, args);
 //   };
 // }
-  
+    </script>
+    <script>
+      var loader = document.getElementById("preloader");
+      window.addEventListener("load",function(){
+      window.setTimeout(( () => loader.style.display ="none") ,2000);
+  })
     </script>
 </html>
