@@ -38,21 +38,52 @@ h1, section, p, span, svg{
   cursor: pointer;
   display: flex;
 }
+.logo:hover{
+  -moz-transform:scaleX(-1);
+  -webkit-transform:scaleX(-1);
+  -o-transform:scaleX(-1);
+  transform:scaleX(-1);
+}
 .navgator{
     display: flex;
     font-family: "Poppins",sans-serif;
     justify-content: space-between;
     align-items: center;
     padding: 0px;
-    color: #fff;
+    color: #ffffff6b;
     width: 100%;
+}
+.nav{
+  height: 54px;
+}
+.navbar-brand>img:hover{
+  animation-name: rotate ;
+  animation-duration: 500ms;
+  animation-iteration-count: 1;
+  animation-timing-function: ease; 
+  animation-fill-mode: forwards;
+}
+@keyframes rotate {
+  from {
+      transform:rotate(0deg);
+  }
+  to {
+      transform:rotate(180deg);
+  }
 }
 .nav-item{
   border-bottom: 2px var(--color-text) solid;
   margin-left: 20px;
   margin-right: 20px;
-  box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;}
+  box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
 
+.nav-item:hover{
+  background-color: rgb(255, 176, 18);
+}
+.nav-item>a:hover{
+ color: rgb(255, 255, 255);
+}
 .experience{
   position: fixed;
   width: 100vw;
@@ -108,6 +139,7 @@ h1, section, p, span, svg{
   width: 100%;
   height: 100%;
   object-fit: cover;
+  filter: opacity(70%);
 }
 .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
 bottom: -60px;
@@ -117,6 +149,7 @@ width: 100%;
 
 .swiper-slide img:hover{
 box-shadow: 0px 8px 8px rgb(0 0 0 / 10%);
+filter: opacity(100%);
 
 }
 @-webkit-keyframes ani_swp{
@@ -482,8 +515,8 @@ ul {
   z-index: 9999999999999999999999999999999;
 }
 #preloader>img{
-  width: 254px;
-  height:254px;
+  width: 117px;
+  height:117px;
   animation-name: spin;
   animation-duration: 1000ms;
   animation-iteration-count: 3;
