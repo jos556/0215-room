@@ -7,9 +7,10 @@ import Particles from 'particles.vue3'
 import router from "./router/index"
 // import {} from './main.ce.js'
 const app = createApp(App)
-app.use(router)
+app.use(router);
+app.use(Particles);
 app.mount('#app');
 // const experience = new Experience(document.querySelector(".experience-canvas"));
-window.setTimeout(( () =>  new Experience(document.querySelector(".experience-canvas"))) ,50);
+// window.setTimeout(( () =>  new Experience(document.querySelector(".experience-canvas"))) ,50);
   
 

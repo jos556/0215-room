@@ -10,9 +10,12 @@
   },
   "dependencies": {
     "@ashthornton/asscroll": "^2.0.11",
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/vue-fontawesome": "^3.0.3",
     "@popperjs/core": "^2.11.7",
     "bootstrap": "^5.3.0-alpha1",
     "custom-elements": "^1.0.2",
+    "font-awesome": "^4.7.0",
     "jquery": "^3.6.4",
     "particles.vue3": "^2.9.3",
     "swiper": "^9.1.1",

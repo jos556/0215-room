@@ -1,4 +1,3 @@
-
 <template>
 <main class="light-theme">
     <img src="../assets/penguinhero.png" alt="penguinhero" @click = tog class="logo" style="position: fixed ;z-index: 99999999; border-radius: 20%; height:80px;">
@@ -14,7 +13,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="./src/html/history.html">History</a>
+                <a class="nav-link" href="/practicle" >History</a> 
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Link</a>
@@ -153,7 +152,7 @@
     </div>
     <div class="copyright"><p class="l-footer__main-bottom__copyright u-ff-poppins">2023 Yu-Fan All Rights Reserved</p></div></main>
 </template>
-<script>
+<script >
   import $ from "jquery"
 
   // import Swiper core and required modules
@@ -161,7 +160,8 @@
 
   // Import Swiper Vue.js components
   import { Swiper, SwiperSlide } from 'swiper/vue';
-
+  import {useRouter,RouterLink} from "vue-router"
+  // import { inject } from "vue";
   // Import Swiper styles
   import 'swiper/css';
   import 'swiper/css/navigation';
@@ -185,6 +185,10 @@
         $( ".tog" ).toggle();
         $(".logo").toggle();
       };
+      // const router = useRouter();
+      // const change =() =>router.push({
+      //     path: "\practicle"
+      //   })
       return {
         onSwiper,
         onSlideChange,
@@ -694,6 +698,9 @@ ul {
    right:0;
   left:auto;
   }
+  .swiper_content{
+    width:1200px
+  }
 }
 @media screen and (max-width: 1122px){
   .hero-second{
@@ -705,6 +712,15 @@ ul {
   .hero-main{
     bottom: 200px;
     left: calc( 30% - 150px);} 
+}@media screen and (max-width: 650px){
+  .swiper_content{
+    width:900px
+  }
+}
+@media screen and (max-width: 500px){
+  .swiper_content{
+    width:750px
+  }
 }
 #preloader{
   background: #000 ;
