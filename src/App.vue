@@ -4,6 +4,7 @@ import index from './components/index.vue'
 import { RouterView } from 'vue-router';
 import Experience from '../experience/experience'
 import { ref, onMounted,  } from 'vue'
+import footerVue from './components/footer.vue';
 const isRouterAlive = ref(true);
 
 
@@ -21,6 +22,7 @@ window.setTimeout(( () =>  new Experience(document.querySelector(".experience-ca
   <div ref="preloader" id="preloader"><img src="./assets/preloader.png" alt=""></div>
   <main>
     <RouterView v-if="isRouterAlive"/>
+    <footerVue/>
   </main>
 </template>
 

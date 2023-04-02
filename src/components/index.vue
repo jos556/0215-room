@@ -141,16 +141,7 @@
               <p class="section-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo quia quidem molestiae, libero vero voluptatibus sapiente sint? Ullam, repellendus impedit veritatis ducimus consectetur facere odit illo, amet harum cum voluptates.</p>
             </div>
           </section></div></div>
-      <div class="l-footer__main-bottom">
-        <ul class="l-footer__main-bottom__nav">
-            <li><div class="aa" style="display: flex;"><a href="/">footer1</a></div></li>
-            <li><div class="aa" style="display: flex;"><a href="/">footer2</a></div></li>
-            <li><div class="aa" style="display: flex;"><a href="/">footer3</a></div></li>
-            <li><div class="aa" style="display: flex;"><a href="/">footer4</a></div></li>
-            <li><div class="aa" style="display: flex;"><a href="/">footer5</a></div></li>
-        </ul>
-    </div>
-    <div class="copyright"><p class="l-footer__main-bottom__copyright u-ff-poppins">2023 Yu-Fan All Rights Reserved</p></div></main>
+    </main>
 </template>
 <script >
   import $ from "jquery"
@@ -651,43 +642,7 @@ svg{
 .nav-item{
   border-radius: 3px;
 }
-.l-footer__main-bottom{
-  display: flex ;
-  position: relative;
-  z-index: 99999999999;
-  justify-content: center;
-  margin-top: 10px;
-  padding-top:30px;
-  border-top: 1px solid #bebebe;
-}
-.l-footer__main-bottom__nav {
-  display: flex;
-  -webkit-justify-content: flex-start;
-  justify-content: flex-start;
-  -webkit-align-items: stretch;
-  align-items: stretch;
-  -webkit-flex-wrap: wrap;
-  flex-wrap: wrap;
-}
-.aa>a{
-  color:#223344;
-  padding-left: 40px;
-}
-.aa>a:hover{
-  color: #fd920c ;
-}
-.copyright{
-  display: flex;
-  justify-content: center;
-  position: relative;
-  z-index: 99999999999;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-  margin-left: 0;
-  padding-left: 0;
-}
+
 
 
 @media (max-width :968px) {
