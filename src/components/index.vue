@@ -59,6 +59,7 @@
     :slides-per-view="2"
     :space-between="0"
     :loop="true"
+    :lazy="true"
     :autoplay="{
             delay: 1500,
             disableOnInteraction: false
@@ -690,10 +691,6 @@ svg{
 #preloader>img{
   width: 117px;
   height:117px;
-  animation-name: spin;
-  animation-duration: 1000ms;
-  animation-iteration-count: 3;
-  animation-timing-function: linear; 
 }
 @keyframes spin {
   from {

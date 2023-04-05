@@ -19,7 +19,7 @@ window.setTimeout(( () =>  new Experience(document.querySelector(".experience-ca
 </script>
 
 <template>
-  <div ref="preloader" id="preloader"><img src="./assets/preloader.png" alt=""></div>
+  <div ref="preloader" id="preloader"><img src="./assets/loadingImg.svg" alt=""></div>
   <main>
     <RouterView v-if="isRouterAlive"/>
     <footerVue/>

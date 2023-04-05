@@ -1,7 +1,7 @@
 <template>
     <div class="l-footer__main-bottom">
         <ul class="l-footer__main-bottom__nav">
-            <li><div class="aa" style="display: flex;"><a href="/">footer1</a></div></li>
+            <li><div class="aa" style="display: flex;"><a href="/">Home</a></div></li>
             <li><div class="aa" style="display: flex;"><a href="/">footer2</a></div></li>
             <li><div class="aa" style="display: flex;"><a href="/">footer3</a></div></li>
             <li><div class="aa" style="display: flex;"><a href="/">footer4</a></div></li>
