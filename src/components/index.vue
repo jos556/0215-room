@@ -87,7 +87,10 @@
             </h1>
             <span class="section-number">01</span></div>
             <div class="section-detail-wrapper">
-              <h3 class="section-heading">Lorem ipsum</h3>
+              <h3 class="section-heading"> &emsp; &emsp;Name: Chen, Yu-Fan
+<br>&emsp; &emsp;School: NYCU (Grad student);&ensp; NTHU (Bachelor)<br>
+&emsp; &emsp;Department: Institute of Biomedical Informatics;&ensp; Kinesiology
+</h3>
               <p class="section-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo quia quidem molestiae, libero vero voluptatibus sapiente sint? Ullam, repellendus impedit veritatis ducimus consectetur facere odit illo, amet harum cum voluptates.</p>
               <h3 class="section-heading">Lorem ipsum</h3>
               <p class="section-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo quia quidem molestiae, libero vero voluptatibus sapiente sint? Ullam, repellendus impedit veritatis ducimus consectetur facere odit illo, amet harum cum voluptates.</p>
@@ -230,6 +233,7 @@ h1, section, p, span, svg{
 .logo{
   cursor: pointer;
   display: flex;
+  margin:3px;
 }
 .logo:hover{
   -moz-transform:scaleX(-1);
@@ -477,7 +481,11 @@ filter: opacity(100%);
   border-top-left-radius:  720px 720px;
   border-bottom-left-radius: 0px 0px;
 }
-
+.navbar-expand-lg{
+  border-radius: 10px;
+  margin:3px;
+  width:50%;
+}
 .section-intro-wrapper{
   position: relative;
   padding: 20% 5%;
@@ -699,5 +707,8 @@ svg{
   to {
       transform:rotate(360deg);
   }
+}
+body::-webkit-scrollbar {
+    display: none;
 }
 </style>

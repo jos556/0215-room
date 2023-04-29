@@ -7,11 +7,11 @@
             <li><div class="aa" style="display: flex;"><a href="/">footer4</a></div></li>
             <li><div class="aa" style="display: flex;"><a href="/">footer5</a></div></li>
         </ul>
+        <div class="copyright"><p class="l-footer__main-bottom__copyright u-ff-poppins">2023 Yu-Fan All Rights Reserved</p></div>
     </div>
-    <div class="copyright"><p class="l-footer__main-bottom__copyright u-ff-poppins">2023 Yu-Fan All Rights Reserved</p></div>
 </template>
 
-<script>
+<script >
 export default {
     name: 'Footer'
 }
@@ -19,6 +19,7 @@ export default {
 <style>
 .l-footer__main-bottom{
   display: flex ;
+  flex-direction: column;
   position: relative;
   z-index: 99999999999;
   justify-content: center;
@@ -28,8 +29,8 @@ export default {
 }
 .l-footer__main-bottom__nav {
   display: flex;
-  -webkit-justify-content: flex-start;
-  justify-content: flex-start;
+  -webkit-justify-content: center;
+  justify-content: center;
   -webkit-align-items: stretch;
   align-items: stretch;
   -webkit-flex-wrap: wrap;
@@ -48,6 +49,7 @@ export default {
   position: relative;
   z-index: 99999999999;
 }
+
 ul {
   list-style-type: none;
   padding: 0;

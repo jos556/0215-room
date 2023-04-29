@@ -21,7 +21,8 @@ window.setTimeout(( () =>  new Experience(document.querySelector(".experience-ca
 <template>
   <div ref="preloader" id="preloader"><img src="./assets/loadingImg.svg" alt=""></div>
   <main>
-    <RouterView v-if="isRouterAlive"/>
+    <div class="main_content">
+    <RouterView v-if="isRouterAlive"/></div>
     <footerVue/>
   </main>
 </template>
@@ -29,6 +30,10 @@ window.setTimeout(( () =>  new Experience(document.querySelector(".experience-ca
 <style scoped>
 header {
   line-height: 1.5;
+}
+.main-content{
+    min-height: 100%;
+    padding-bottom:70px;
 }
 
 
