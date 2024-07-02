@@ -49,7 +49,7 @@
               <div class="hero-second">
                 <p class="hero-second-subheading">Yu-Fan
                   CHEN</p>
-                <p class="hero-second-subheading">Portfolio</p>
+                <p class="hero-second-subheading sf">Portfolio</p>
               </div>
             </div>
           </section>
@@ -195,6 +195,7 @@
 </script>
 <style >
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@700&family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Vast+Shadow&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -349,36 +350,6 @@ box-shadow: 0px 8px 8px rgb(0 0 0 / 10%);
 filter: opacity(100%);
 
 }
-@-webkit-keyframes ani_swp{
-  0%{
-      -webkit-transform: translate(200px,-80px) skewY(8deg);
-              transform: translate(200px,-80px) skewY(8deg);
-  }
-  50%{
-      opacity: 1;
-  }
-  99.9%, to{
-      -webkit-transform: translate(0) skewY(8deg);
-              transform: translate(0) skewY(8deg);
-      opacity: 1;
-      pointer-events: auto;
-  }
-  }
-  @keyframes ani_swp{
-  0%{
-      -webkit-transform: translate(200px,-80px) skewY(8deg);
-              transform: translate(200px,-80px) skewY(8deg);
-  }
-  50%{
-      opacity: 1;
-  }
-  99.9%, to{
-      -webkit-transform: translate(0) skewY(8deg);
-              transform: translate(0) skewY(8deg);
-      opacity: 1;
-      pointer-events: auto;
-  }
-  }
 
 @keyframes move{
 0%{
@@ -408,11 +379,9 @@ filter: opacity(100%);
 
 }
 .swiper_content {
-  width: 1880px;
-  margin-left: -300px;
+  width: 100%;
   bottom: 145px;
   font-size: 0;
-  animation-name:ani_swp ;
   animation-duration: 200s;
   animation-iteration-count:infinite;
 
@@ -432,7 +401,7 @@ filter: opacity(100%);
 .hero-main{
   position: absolute;
   font-family: "Poppins",sans-serif;
-  bottom: 256px;
+  bottom: 310px;
   left: calc( 30% - 100px);
   color : var(--color-text);
   filter: drop-shadow(1px 1px 1px rgb(0 0 0 / 0.4));
@@ -441,7 +410,7 @@ filter: opacity(100%);
   position: absolute;
   font-family: "Poppins",sans-serif;
   top:calc(50% - 120px);
-  right:calc(16% - 100px);
+  right:calc(16% - 150px);
   color : var(--color-text);
   filter: drop-shadow(1px 1px 1px rgb(0 0 0 / 0.4));
 }
@@ -457,6 +426,9 @@ filter: opacity(100%);
   font-size: 21px;
   text-transform: uppercase;
   color : var(--color-text);
+}
+.sf{
+  font-family: 'Permanent Marker', cursive;
 }
 
 .section-margin{
