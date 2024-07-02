@@ -19,7 +19,7 @@ window.setTimeout(( () =>  new Experience(document.querySelector(".experience-ca
 </script>
 
 <template>
-  <div ref="preloader" id="preloader"><img src="./assets/loadingImg.svg" alt=""></div>
+  <div ref="preloader" id="preloader" ><img src="./assets/loadingImg.svg" alt="">loading</div>
   <main>
     <div class="main_content">
     <RouterView v-if="isRouterAlive"/></div>
@@ -34,6 +34,11 @@ header {
 .main-content{
     min-height: 100%;
     padding-bottom:70px;
+}
+
+#preloader{
+  color: aliceblue;
+  font-size: 50px;
 }
 
 

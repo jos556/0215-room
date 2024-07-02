@@ -41,7 +41,7 @@ preloader.style.display ="none";
       }
   .setitem{
     color:rgb(255, 171, 46);
-    font-size: xxx-large;
+    font-size: 100px;
     font-family: 'VastShadow-Regular';
     margin-top: 100px;
     margin-bottom: 155px;
@@ -53,6 +53,8 @@ preloader.style.display ="none";
     align-items: center;
     flex-direction: column;
   }
-
+  .error{
+    width:50%
+  }
   
   </style>

@@ -1,6 +1,6 @@
 <template>
 <main class="light-theme">
-    <img src="../assets/penguinhero.png" alt="penguinhero" @click = tog class="logo" style="position: fixed ;z-index: 99999999; border-radius: 20%; height:80px;">
+    <img src="../assets/23_.png" alt="penguinhero" @click = tog class="logo" style="position: fixed ;z-index: 99999999; border-radius: 20%; height:80px;">
     <div class="tog" style="display: none;"><div class="img-logo"  style="display: flex ;justify-content: center;" >
       <div class = "navgator" style="position: fixed ;z-index: 99999999; display: flex;">
         <div class="container"><div class="rol">
@@ -54,6 +54,7 @@
             </div>
           </section>
           <div class="swiper_content">
+            <span style="font-size: large;font-weight: bolder; color: black;">兪帆的相關連結</span>
           <swiper
     :modules="modules"
     :slides-per-view="2"
@@ -236,7 +237,7 @@ h1, section, p, span, svg{
   display: flex;
   margin:3px;
 }
-.logo:hover{
+.logo:active{
   -moz-transform:scaleX(-1);
   -webkit-transform:scaleX(-1);
   -o-transform:scaleX(-1);
@@ -259,7 +260,7 @@ h1, section, p, span, svg{
 .nav{
   height: 54px;
 }
-.navbar-brand>img:hover{
+.navbar-brand>img:active{
   animation-name: rotate ;
   animation-duration: 500ms;
   animation-iteration-count: 1;
@@ -281,10 +282,10 @@ h1, section, p, span, svg{
   box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
 }
 
-.nav-item:hover{
+.nav-item:active{
   background-color: rgb(255, 176, 18);
 }
-.nav-item>a:hover{
+.nav-item>a:active{
  color: rgb(255, 255, 255);
 }
 .experience{
@@ -307,9 +308,10 @@ h1, section, p, span, svg{
   position: relative;
 }
 .swiper {
-  padding-top: 100px;
+  padding-top: 10px;
   width: 108%;
 }
+
 
 .swiper-slide {
   text-align: center;
@@ -334,8 +336,7 @@ h1, section, p, span, svg{
 
 .swiper-slide img {
   display: block;
-  width: 100%;
-  height: 100%;
+  width: 50%;
   object-fit: cover;
   filter: opacity(70%);
 }
@@ -345,7 +346,7 @@ left: 0;
 width: 100%;
 }
 
-.swiper-slide img:hover{
+.swiper-slide img:active{
 box-shadow: 0px 8px 8px rgb(0 0 0 / 10%);
 filter: opacity(100%);
 
@@ -380,8 +381,8 @@ filter: opacity(100%);
 }
 .swiper_content {
   width: 100%;
-  bottom: 145px;
   font-size: 0;
+
   animation-duration: 200s;
   animation-iteration-count:infinite;
 
@@ -432,7 +433,7 @@ filter: opacity(100%);
 }
 
 .section-margin{
-  height: 3000px;
+  height: 800px;
   width: 100%;
 }
 .section{
@@ -570,7 +571,7 @@ svg{
   background-color: var(--color-background);
   transition: all 0.2s ease-in-out ;
 }
-.toggle-button:hover .toggle-circle{
+.toggle-button:active .toggle-circle{
   transform: scale(0.9);
 }
 .slide{

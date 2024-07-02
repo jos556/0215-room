@@ -17,6 +17,12 @@ export default {
 }
 </script>
 <style>
+@font-face {
+    font-family: VastShadow-Regular;
+  src: local("VastShadow-Regular"),
+  url(../assets/VastShadow-Regular.ttf);
+  font-weight: bold;
+      }
 .l-footer__main-bottom{
   display: flex ;
   flex-direction: column;
@@ -38,14 +44,18 @@ export default {
 }
 .aa>a{
   color:#223344;
+  font-size: larger;
+  font-weight: bolder;
   padding-left: 40px;
 }
-.aa>a:hover{
+.aa>a:active{
   color: #fd920c ;
 }
 .copyright{
   display: flex;
   justify-content: center;
+  font-size: larger;
+  font-weight: bolder;
   position: relative;
   z-index: 99999999999;
 }
