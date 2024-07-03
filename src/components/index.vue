@@ -54,7 +54,7 @@
             </div>
           </section>
           <div class="swiper_content">
-            <span style="font-size: large;font-weight: bolder; color: black;">兪帆的相關連結</span>
+            <span style="font-size: xx-large;font-weight: bolder; color: black;">兪帆的相關連結</span>
           <swiper
     :modules="modules"
     :slides-per-view="2"
@@ -69,10 +69,10 @@
     @swiper="onSwiper"
     @slideChange="onSlideChange"
   >
-  <swiper-slide><a href="https://www.facebook.com/profile.php?id=100002572182904" target="_blank" rel="noreferrer noopenner" ><img src="../assets/0307_set1.png" alt="" ></a></swiper-slide>
-  <swiper-slide><a href="https://www.instagram.com/johnson__1029/" target="_blank" rel="noreferrer noopenner" ><img src="../assets/0307_set2.png" alt="" ></a></swiper-slide>
-  <swiper-slide><a href="http://bmi.ym.edu.tw/wp/" target="_blank" rel="noreferrer noopenner" ><img src="../assets/0307_set3.png" alt="" ></a></swiper-slide>
-  <swiper-slide><a href="https://github.com/jos556" target="_blank" rel="noreferrer noopenner" ><img src="../assets/0307_set4.png" alt="" ></a></swiper-slide> </swiper>
+  <swiper-slide><a href="https://www.facebook.com/profile.php?id=100002572182904" target="_blank" rel="noreferrer noopenner" ><img src="../assets/0307_set1.png" alt="" ></a><span style="font-size: x-large;font-weight: bolder;">FACEBOOK</span></swiper-slide>
+  <swiper-slide><a href="https://www.linkedin.com/in/%E4%BF%9E%E5%B8%86-%E9%99%B3-9a89371b2/" target="_blank" rel="noreferrer noopenner" ><img src="../assets/0307_set2.png" alt="" ></a><span style="font-size: x-large;font-weight: bolder;">LINKEDIN</span></swiper-slide>
+  <swiper-slide><a href="http://bmi.ym.edu.tw/wp/" target="_blank" rel="noreferrer noopenner" ><img src="../assets/0307_set3.png" alt="" ></a><span style="font-size: x-large;font-weight: bolder;">BMI 官網</span></swiper-slide>
+  <swiper-slide><a href="https://github.com/jos556" target="_blank" rel="noreferrer noopenner" ><img src="../assets/0307_set4.png" alt="" ></a><span style="font-size: x-large;font-weight: bolder;">GITHUB</span></swiper-slide> </swiper>
 </div>
           <div class="first-move section-margin"></div>
           <section class="first-section section left">
@@ -81,7 +81,7 @@
             </div>
             <div class="section-intro-wrapper">
             <h1 class="section-title">
-              <span class="section-title-text">About Me</span>
+              <span class="section-title-text">About Me<br>關於我</span>
               <div class="section-title-decoration styleOne"></div>
               <div class="section-title-decoration styleTwo"></div>
               <div class="section-title-decoration styleThree"></div>
@@ -108,7 +108,7 @@
             </div>
             <div class="section-intro-wrapper ">
             <h1 class="section-title ">
-              <span class="section-title-text ">My work</span>
+              <span class="section-title-text ">My work<br>我的作品</span>
               <div class="section-title-decoration styleOne "></div>
               <div class="section-title-decoration styleTwo "></div>
               <div class="section-title-decoration styleThree  "></div>
@@ -131,7 +131,7 @@
             </div>
             <div class="section-intro-wrapper ">
             <h1 class="section-title ">
-              <span class="section-title-text ">Contact Me</span>
+              <span class="section-title-text ">Contact Me<br>聯繫我</span>
               <div class="section-title-decoration styleOne "></div>
               <div class="section-title-decoration styleTwo "></div>
               <div class="section-title-decoration styleThree "></div>
