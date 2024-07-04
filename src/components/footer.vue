@@ -2,12 +2,12 @@
     <div class="l-footer__main-bottom">
         <ul class="l-footer__main-bottom__nav">
             <li><div class="aa" style="display: flex;"><a href="/">Home</a></div></li>
-            <li><div class="aa" style="display: flex;"><a href="/">footer2</a></div></li>
-            <li><div class="aa" style="display: flex;"><a href="/">footer3</a></div></li>
-            <li><div class="aa" style="display: flex;"><a href="/">footer4</a></div></li>
-            <li><div class="aa" style="display: flex;"><a href="/">footer5</a></div></li>
+            <li><div class="aa" style="display: flex;"><a href="mailto:d25823095@gmail.com?subject=聯繫郵件&body=這是一封聯繫給兪帆的郵件。">Email</a></div></li>
+            <li><div class="aa" style="display: flex;"><a href="https://9rise.com/" target="_blank" rel="noopener noreferrer">九日生</a></div></li>
+            <li><div class="aa" style="display: flex;"><a href="../src/assets/履歷.pdf" target="_blank">查看履歷</a></div></li>
+            <li><div class="aa" style="display: flex;"><a href="tel:0905286032">打電話給兪帆</a></div></li>
         </ul>
-        <div class="copyright"><p class="l-footer__main-bottom__copyright u-ff-poppins">2023 Yu-Fan All Rights Reserved</p></div>
+        <div class="copyright"><p class="l-footer__main-bottom__copyright u-ff-poppins">2023 All Rights Reserved</p></div>
     </div>
 </template>
 

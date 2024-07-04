@@ -71,7 +71,7 @@
   >
   <swiper-slide><a href="https://www.facebook.com/profile.php?id=100002572182904" target="_blank" rel="noreferrer noopenner" ><img src="../assets/0307_set1.png" alt="" ></a><span style="font-size: x-large;font-weight: bolder;">FACEBOOK</span></swiper-slide>
   <swiper-slide><a href="https://www.linkedin.com/in/%E4%BF%9E%E5%B8%86-%E9%99%B3-9a89371b2/" target="_blank" rel="noreferrer noopenner" ><img src="../assets/0307_set2.png" alt="" ></a><span style="font-size: x-large;font-weight: bolder;">LINKEDIN</span></swiper-slide>
-  <swiper-slide><a href="http://bmi.ym.edu.tw/wp/" target="_blank" rel="noreferrer noopenner" ><img src="../assets/0307_set3.png" alt="" ></a><span style="font-size: x-large;font-weight: bolder;">BMI 官網</span></swiper-slide>
+  <swiper-slide><a href="https://bmi.nycu.edu.tw/" target="_blank" rel="noreferrer noopenner" ><img src="../assets/0307_set3.png" alt="" ></a><span style="font-size: x-large;font-weight: bolder;">陽明交大生醫資訊</span></swiper-slide>
   <swiper-slide><a href="https://github.com/jos556" target="_blank" rel="noreferrer noopenner" ><img src="../assets/0307_set4.png" alt="" ></a><span style="font-size: x-large;font-weight: bolder;">GITHUB</span></swiper-slide> </swiper>
 </div>
           <div class="first-move section-margin"></div>
@@ -89,9 +89,9 @@
             <span class="section-number">01</span></div>
             <div class="section-detail-wrapper">
               <h3 class="section-heading"> &emsp; &emsp;Name: Chen, Yu-Fan
-<br>&emsp; &emsp;School: NYCU (Grad student);&ensp; NTHU (Bachelor)<br>
-&emsp; &emsp;Department: Institute of Biomedical Informatics;&ensp; Kinesiology
-</h3>
+              <br>&emsp; &emsp;School: NYCU (Grad student);&ensp; NTHU (Bachelor)<br>
+              &emsp; &emsp;Department: Institute of Biomedical Informatics;&ensp; Kinesiology
+              </h3>
               <p class="section-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo quia quidem molestiae, libero vero voluptatibus sapiente sint? Ullam, repellendus impedit veritatis ducimus consectetur facere odit illo, amet harum cum voluptates.</p>
               <h3 class="section-heading">Lorem ipsum</h3>
               <p class="section-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo quia quidem molestiae, libero vero voluptatibus sapiente sint? Ullam, repellendus impedit veritatis ducimus consectetur facere odit illo, amet harum cum voluptates.</p>

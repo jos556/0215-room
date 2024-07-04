@@ -5,9 +5,9 @@ export default [
         path : "/models/0212.glb",
 
     },
-    {
-        name : "screen",
-        type : "videoTexture",
-        path : "/textures/Light It Up.mp4",
-    }
+    // {
+    //     name : "screen",
+    //     type : "videoTexture",
+    //     path : "/textures/Light It Up.mp4",
+    // }
 ]
