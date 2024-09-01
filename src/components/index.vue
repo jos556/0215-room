@@ -5,7 +5,7 @@
       <div class = "navgator" style="position: fixed ;z-index: 99999999; display: flex;">
         <div class="container"><div class="rol">
         <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ffffff6b;">
-          <a class="navbar-brand" href="#"><img src="../assets/23_.png" alt="" @click = tog width="50" height="50"></a>
+          <a class="navbar-brand" href="#"><img src="../assets/Design.png" alt="" @click = tog width="50" height="50"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"  aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
