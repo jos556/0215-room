@@ -10,7 +10,7 @@ const isRouterAlive = ref(true);
 
 onMounted(() => {const preloader = document.getElementById("preloader")
 window.addEventListener("load",function(){
-      window.setTimeout(( () => preloader.style.display ="none") ,2000);
+      window.setTimeout(( () => preloader.style.display ="none") ,3000);
 })
 window.setTimeout(( () =>  new Experience(document.querySelector(".experience-canvas"))) ,50);
 });

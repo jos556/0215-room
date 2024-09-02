@@ -7,7 +7,7 @@
             <li><div class="aa" style="display: flex;"><a href="履歷.pdf" target="_blank">查看履歷</a></div></li>
             <li><div class="aa" style="display: flex;"><a href="tel:0905286032">打電話給兪帆</a></div></li>
         </ul>
-        <div class="copyright"><p class="l-footer__main-bottom__copyright u-ff-poppins">2023 All Rights Reserved</p></div>
+        <div class="copyright"><p class="l-footer__main-bottom__copyright u-ff-poppins">2024 All Rights Reserved</p></div>
     </div>
 </template>
 

@@ -5,7 +5,7 @@
       <div class = "navgator" style="position: fixed ;z-index: 99999999; display: flex;">
         <div class="container"><div class="rol">
         <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ffffff6b;">
-          <a class="navbar-brand" href="#"><img src="../assets/Design.png" alt="" @click = tog width="50" height="50"></a>
+          <a class="navbar-brand" href="#"><img src="../assets/23_.png" alt="" @click = tog width="50" height="50"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"  aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -13,13 +13,16 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="/practicle" >History</a> 
+              <a class="nav-link" href="javascript:void(0);" @click= scrollToContent>相關連結</a> 
+            </li>
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0);" @click= scrollToContent1>關於我</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="javascript:void(0);" @click= scrollToContent2>我的作品</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="javascript:void(0);" @click= scrollToContent3>聯繫我</a>
               </li>
             </ul>
           </div>
@@ -80,6 +83,9 @@
               <div class="progress-bar"></div>
             </div>
             <div class="section-intro-wrapper">
+              <div>
+                <img src="/src/assets/Design.png" alt="design" style="width:41%;margin-bottom: 25px;" class ="design1">
+              </div>
             <h1 class="section-title">
               <span class="section-title-text">About Me<br>關於我</span>
               <div class="section-title-decoration styleOne"></div>
@@ -88,15 +94,12 @@
             </h1>
             <span class="section-number">01</span></div>
             <div class="section-detail-wrapper">
-              <h3 class="section-heading"> &emsp; &emsp;Name: Chen, Yu-Fan
-              <br>&emsp; &emsp;School: NYCU (Grad student);&ensp; NTHU (Bachelor)<br>
-              &emsp; &emsp;Department: Institute of Biomedical Informatics;&ensp; Kinesiology
+              <h3 class="section-heading"> Name: Chen, Yu-Fan
+                <br>School: <br><br>National Taiwan University;<br> <br>National Yang Ming Chiao Tung University (<span style="color:red">Master</span>);<br><br> National Tsing Hua University (<span style="color:red">Bachelor</span>);<br><br>
+Department: <br><br>International College; <br><br>Institute of Biomedical Informatics; <br><br>Department of Kinesiology;<br><br>Work Experience:<br><br>9 Rise International Mobile Health Technology Co., LTD (As <span style="color:red">Research and Software Development Engineer</span>)<br><br>Qualifications of Physical Education <span style="color:red">Teacher</span><br><br>
+Awarded:<br><br> <span style="color:red">Scholarship</span> of the Institute of Biomedical Informatics; <br><br><span style="color:red">Five-semester</span> Academic Achievement <br><br>Intrduction:<br><br>My name is Yu-Fan Chen, which means permission in ancient times.<br> My parents hope that there will be an eternal promise and that everything will be good. <br>I pride myself on being a serious, responsible, and confident young man. <br>I was born into a happy family when I was a child. <br>My father is a professor of the university and my mother is the director of a primary school.<br> This has shaped my<span style="color:red"> mature</span> personality.
               </h3>
-              <p class="section-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo quia quidem molestiae, libero vero voluptatibus sapiente sint? Ullam, repellendus impedit veritatis ducimus consectetur facere odit illo, amet harum cum voluptates.</p>
-              <h3 class="section-heading">Lorem ipsum</h3>
-              <p class="section-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo quia quidem molestiae, libero vero voluptatibus sapiente sint? Ullam, repellendus impedit veritatis ducimus consectetur facere odit illo, amet harum cum voluptates.</p>
-              <h3 class="section-heading">Lorem ipsum</h3>
-              <p class="section-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo quia quidem molestiae, libero vero voluptatibus sapiente sint? Ullam, repellendus impedit veritatis ducimus consectetur facere odit illo, amet harum cum voluptates.</p>
+              
             </div>
           </section>
           <div class="second-move section-margin">
@@ -107,20 +110,31 @@
               <div class="progress-bar"></div>
             </div>
             <div class="section-intro-wrapper ">
+              <div>
+                <img src="/src/assets/DesignFire.png" alt="design" style="width:41%;margin-bottom: 25px;" class ="design2">
+              </div>
             <h1 class="section-title ">
-              <span class="section-title-text ">My work<br>我的作品</span>
+              <span class="section-title-text ">My Photo<br>我的相片</span>
               <div class="section-title-decoration styleOne "></div>
               <div class="section-title-decoration styleTwo "></div>
               <div class="section-title-decoration styleThree  "></div>
             </h1>
             <span class="section-number ">02</span></div>
             <div class="section-detail-wrapper">
-              <h3 class="section-heading">Lorem ipsum</h3>
-              <p class="section-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo quia quidem molestiae, libero vero voluptatibus sapiente sint? Ullam, repellendus impedit veritatis ducimus consectetur facere odit illo, amet harum cum voluptates.</p>
-              <h3 class="section-heading">Lorem ipsum</h3>
-              <p class="section-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo quia quidem molestiae, libero vero voluptatibus sapiente sint? Ullam, repellendus impedit veritatis ducimus consectetur facere odit illo, amet harum cum voluptates.</p>
-              <h3 class="section-heading">Lorem ipsum</h3>
-              <p class="section-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo quia quidem molestiae, libero vero voluptatibus sapiente sint? Ullam, repellendus impedit veritatis ducimus consectetur facere odit illo, amet harum cum voluptates.</p>
+              <img style ="width:100%;" src="/src/assets/九日生_2.jpg" alt="">
+              <span><h3 class="section-heading" >高齡健康產業博覽會參展廠商</h3></span>
+            </div>
+            <div class="section-detail-wrapper">
+              <img style ="width:100%;" src="/src/assets/九日生_3.jpg" alt="">
+              <span><h3 class="section-heading" >運動與健康休閒學術研討會口頭發表</h3></span>
+            </div>
+            <div class="section-detail-wrapper">
+              <img style ="width:100%;" src="/src/assets/九日生_0.jpg" alt="">
+              <span><h3 class="section-heading" >NYCU畢業班級照</h3></span>
+            </div>
+            <div class="section-detail-wrapper">
+              <img style ="width:100%;" src="/src/assets/九日生_1.jpg" alt="">
+              <span><h3 class="section-heading" >書卷獎頒獎典禮</h3></span>
             </div>
           </section>
 
@@ -130,6 +144,9 @@
               <div class="progress-bar"></div>
             </div>
             <div class="section-intro-wrapper ">
+              <div>
+                <img src="/src/assets/DesignWater.png" alt="design" style="width:41%;margin-bottom: 25px;" class ="design3">
+              </div>
             <h1 class="section-title ">
               <span class="section-title-text ">Contact Me<br>聯繫我</span>
               <div class="section-title-decoration styleOne "></div>
@@ -138,12 +155,8 @@
             </h1>
             <span class="section-number ">03</span></div>
             <div class="section-detail-wrapper">
-              <h3 class="section-heading">Lorem ipsum</h3>
-              <p class="section-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo quia quidem molestiae, libero vero voluptatibus sapiente sint? Ullam, repellendus impedit veritatis ducimus consectetur facere odit illo, amet harum cum voluptates.</p>
-              <h3 class="section-heading">Lorem ipsum</h3>
-              <p class="section-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo quia quidem molestiae, libero vero voluptatibus sapiente sint? Ullam, repellendus impedit veritatis ducimus consectetur facere odit illo, amet harum cum voluptates.</p>
-              <h3 class="section-heading">Lorem ipsum</h3>
-              <p class="section-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo quia quidem molestiae, libero vero voluptatibus sapiente sint? Ullam, repellendus impedit veritatis ducimus consectetur facere odit illo, amet harum cum voluptates.</p>
+              <h3 class="section-heading">電話(Phone): <br><br>0905286032 <br><br>電子郵件(Email):<br><br>d25823095@gmail.com <br><br>通訊軟體(Line): <br><br>ID:jos556<br><br>歡迎您來聯繫兪帆</h3>
+              
             </div>
           </section></div></div>
     </main>
@@ -153,7 +166,7 @@
 
   // import Swiper core and required modules
   import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper';
-
+  import { nextTick } from 'vue';
   // Import Swiper Vue.js components
   import { Swiper, SwiperSlide } from 'swiper/vue';
   import {useRouter,RouterLink} from "vue-router"
@@ -185,10 +198,46 @@
       // const change =() =>router.push({
       //     path: "\practicle"
       //   })
+      const scrollToContent = () => {
+        nextTick(() => {
+          document.querySelector('.swiper').scrollIntoView({ 
+            behavior: 'smooth', 
+            block: 'center' 
+          });
+        });
+      };
+      const scrollToContent1 = () => {
+        nextTick(() => {
+          document.querySelector('.design1').scrollIntoView({ 
+            behavior: 'smooth', 
+            block: 'center' 
+          });
+        });
+      };
+      const scrollToContent2 = () => {
+        nextTick(() => {
+          document.querySelector('.design2').scrollIntoView({ 
+            behavior: 'smooth', 
+            block: 'center' 
+          });
+        });
+      };
+      const scrollToContent3 = () => {
+        nextTick(() => {
+          document.querySelector('.design3').scrollIntoView({ 
+            behavior: 'smooth', 
+            block: 'center' 
+          });
+        });
+      };
       return {
         onSwiper,
         onSlideChange,
         tog,
+        scrollToContent,
+        scrollToContent1,
+        scrollToContent2,
+        scrollToContent3,
         modules: [Navigation, Pagination, Scrollbar, A11y,Autoplay],
       };
     },
@@ -471,7 +520,7 @@ filter: opacity(100%);
   padding: 20% 5%;
 }
 .section-heading{
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 700;
   line-height: 1.8;
   margin-top: 64px;
@@ -670,8 +719,8 @@ svg{
   z-index: 9999999999999999999999999999999;
 }
 #preloader>img{
-  width: 117px;
-  height:117px;
+  width: 118px;
+  height:118px;
 }
 @keyframes spin {
   from {
