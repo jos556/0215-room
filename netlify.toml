@@ -1,4 +1,3 @@
-# example netlify.toml
 [build]
   command = "npm run build"
   functions = "netlify/functions"
@@ -20,6 +19,6 @@
 
   ## more info on configuring this file: https://ntl.fyi/file-based-build-config
 [[headers]]
-for = "*.glb"
-[headers.values]
-Content-Type = "model/gltf-binary"
+  for = "*.glb"
+  [headers.values]
+    Content-Type = "model/gltf-binary"
