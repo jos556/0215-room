@@ -14,3 +14,6 @@ This template should help get you started
 - netlify deploy --prod
 - netlify unlink
 - netlify init
+
+## 示意圖
+![image](https://github.com/jos556/0215-room/blob/main/src/assets/screenshot.png)
