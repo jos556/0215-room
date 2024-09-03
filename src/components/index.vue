@@ -19,7 +19,7 @@
                 <a class="nav-link" href="javascript:void(0);" @click= scrollToContent1>關於我</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="javascript:void(0);" @click= scrollToContent2>我的作品</a>
+                <a class="nav-link" href="javascript:void(0);" @click= scrollToContent2>我的相片</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="javascript:void(0);" @click= scrollToContent3>聯繫我</a>
@@ -94,10 +94,10 @@
             </h1>
             <span class="section-number">01</span></div>
             <div class="section-detail-wrapper">
-              <h3 class="section-heading"> Name: Chen, Yu-Fan
-                <br>School: <br><br>National Taiwan University;<br> <br>National Yang Ming Chiao Tung University (<span style="color:red">Master</span>);<br><br> National Tsing Hua University (<span style="color:red">Bachelor</span>);<br><br>
-Department: <br><br>International College; <br><br>Institute of Biomedical Informatics; <br><br>Department of Kinesiology;<br><br>Work Experience:<br><br>9 Rise International Mobile Health Technology Co., LTD (As <span style="color:red">Research and Software Development Engineer</span>)<br><br>Qualifications of Physical Education <span style="color:red">Teacher</span><br><br>
-Awarded:<br><br> <span style="color:red">Scholarship</span> of the Institute of Biomedical Informatics; <br><br><span style="color:red">Five-semester</span> Academic Achievement <br><br>Intrduction:<br><br>My name is Yu-Fan Chen, which means permission in ancient times.<br> My parents hope that there will be an eternal promise and that everything will be good. <br>I pride myself on being a serious, responsible, and confident young man. <br>I was born into a happy family when I was a child. <br>My father is a professor of the university and my mother is the director of a primary school.<br> This has shaped my<span style="color:red"> mature</span> personality.
+              <h3 class="section-heading"> Name:<br><br> <span style="padding-left: 20px;">Chen, Yu-Fan</span>
+                <br><br>School: <br><br><span style="padding-left: 20px;">National Taiwan University;</span><br> <br><span style="padding-left: 20px;">National Yang Ming Chiao Tung University (<span style="color:red">Master</span>);</span><br><br> <span style="padding-left: 20px;">National Tsing Hua University (<span style="color:red">Bachelor</span>);</span><br><br>
+                Department:<br><br><span style="padding-left: 20px;">International College; </span><br><br><span style="padding-left: 20px;">Institute of Biomedical Informatics;</span> <br><br><span style="padding-left: 20px;">Department of Kinesiology;</span><br><br>Work Experience:<br><br><span style="padding-left: 20px;">9 Rise International Mobile Health Technology Co., LTD (As <span style="color:red">Research and Software Development Engineer</span>)</span><br><br><span style="padding-left: 20px;">Qualifications of Physical Education <span style="color:red">Teacher</span></span><br><br>
+                Awarded:<br><br> <span style="padding-left: 20px;"><span style="color:red">Scholarship</span> of the Institute of Biomedical Informatics;</span><br><br><span style="padding-left: 20px;"><span style="color:red">Five-semester</span> Academic Achievement </span><br><br>Intrduction:<br><br><span style="padding-left: 20px;">My name is Yu-Fan Chen, which means permission in ancient times.</span><br> <span style="padding-left: 20px;">My parents hope that there will be an eternal promise and that everything will be good. </span><br><span style="padding-left: 20px;">I pride myself on being a serious, responsible, and confident young man. </span><br><span style="padding-left: 20px;">I was born into a happy family when I was a child.</span> <br><span style="padding-left: 20px;">My father is a professor of the university and my mother is the principal of an elementary school.</span><br> <span style="padding-left: 20px;">This has shaped my<span style="color:red"> mature</span> personality.</span>
               </h3>
               
             </div>
