@@ -87,7 +87,7 @@ netlify init
 
 ## 📸 預覽圖
 
-![作品集預覽](https://github.com/jos556/0215-room/blob/main/src/assets/screenshot.png)
+![作品集預覽_亮](https://github.com/jos556/0215-room/blob/main/src/assets/screenshot.png)![作品集預覽_暗](https://github.com/jos556/0215-room/blob/main/src/assets/screenshot_1.png)![作品集預覽_區域](https://github.com/jos556/0215-room/blob/main/src/assets/screenshot_2.png)
 
 ## 📄 授權條款
 
