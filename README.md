@@ -89,6 +89,32 @@ netlify init
 
 ![作品集預覽_亮](https://github.com/jos556/0215-room/blob/main/src/assets/screenshot.png)![作品集預覽_暗](https://github.com/jos556/0215-room/blob/main/src/assets/screenshot_1.png)![作品集預覽_區域](https://github.com/jos556/0215-room/blob/main/src/assets/screenshot_2.png)
 
+## 🙏 致謝
+
+感謝以下開源專案和團隊的貢獻，使本專案得以順利完成：
+
+### 核心框架與工具
+
+- [Vue.js Team](https://vuejs.org/) - 提供強大的前端框架
+- [Vite Team](https://vitejs.dev/) - 提供高效的開發工具
+- [Three.js](https://threejs.org/) - 提供 3D 渲染引擎
+- [GSAP Team](https://greensock.com/gsap/) - 提供專業的動畫解決方案
+
+### 設計靈感
+
+- [Bokoko33](https://bokoko33.me/) - 3D 房間模型設計靈感
+- [Andrew Woan](https://www.youtube.com/@andrewwoan) - Three.js 技術指導
+- [Tendemy](https://www.tendemy.com/) - 網頁設計參考
+
+### 使用的套件
+
+- [Bootstrap Team](https://getbootstrap.com/) - UI 框架
+- [Swiper Team](https://swiperjs.com/) - 輪播功能
+- [Particles.vue3](https://particles.js.org/) - 粒子效果
+- [Netlify Team](https://www.netlify.com/) - 部署平台
+
+特別感謝所有開源社群的貢獻者。
+
 ## 📄 授權條款
 
 本專案使用 ISC 授權條款。
@@ -104,6 +130,7 @@ This updated README:
 6. Keeps the IDE setup recommendations
 7. Preserves the preview image
 8. Adds a license section based on the package.json
+9. Adds a thanks section
 
 The format is more structured and provides better information for anyone looking to understand or work with the project.
 ```
